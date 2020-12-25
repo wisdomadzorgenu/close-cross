@@ -1,0 +1,36 @@
+.container, .container-fluid{
+   padding-right: 0;
+   padding-left: 0;
+}
+
+#dashboard-page {
+   min-height: 100%;
+   color:#fff;
+}
+
+.info-label {
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 12px;
+   line-height: 12px;
+   color: #666E79;
+}
+
+button.active-btn, button.active-btn:hover,
+button.active-btn:focus,button.active-btn:active {
+   background-color:#9AC802;
+   color:#111112;
+}
+
+button.active-outline {
+   color:#9AC802;
+   border-color:#9AC802;
+}
+
+.space-left {
+   margin-left:10px;
+}
+.space-right {
+   margin-right:10px;
+}
