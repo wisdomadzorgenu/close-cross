@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Lato|Mono|Lora|Open+Sans|Scada&display=swap');
+
+html, body, body #root {
+   height: 100%;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,7 +11,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100%;
+  background-color: #1E2122 !important;
 }
+
+/* #root {
+   min-height: 100% !important;
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
