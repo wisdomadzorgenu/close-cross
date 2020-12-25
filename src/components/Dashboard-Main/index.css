@@ -1,0 +1,25 @@
+#main-dashboard {
+   padding: 15px 20px;
+}
+
+#main-dashboard .btn {
+   font-size: 14px;
+}
+
+.sort-form {
+   display: inline-block;
+   width: 100px;
+   height: 30px;
+   margin-top: 5px;
+   vertical-align: middle;
+   font-size: 15px;
+   padding-left: 5px;
+   padding-top: 2px;
+   padding-right: 5px;   
+   background-color: #1e2122;
+   color: #fff;
+}
+
+.item-panel-list {
+   margin-top:25px;
+}

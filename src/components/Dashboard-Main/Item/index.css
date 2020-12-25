@@ -1,0 +1,87 @@
+.main-panel {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   background-color: #272A2D;
+   border-radius: 8px;
+   border: 1px solid #666E79;
+   padding: 10px 15px;
+   margin-bottom: 20px;
+}
+
+.awesome-icon {
+   color: #9AC802;;
+}
+
+.info-label.big {
+   font-size: 17px;
+   font-weight: 600;
+}
+
+.headline-section .awesome-icon {
+   vertical-align: 17px !important;
+}
+
+.headline-section h4 {
+   display: inline-block;
+   margin-bottom: 5px;
+   margin-top: 2px;
+   vertical-align: middle;
+   margin-left: 7px;
+}
+.headline, .total-funds {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 24px
+}
+
+.headline-section label {
+   display: block;
+   margin-top:18px;
+}
+
+.trades-outcome {
+   margin-top: 5px;
+   border-left: 1px dashed rgba(102, 110, 121, 0.5);
+   padding-left: 20px;   
+}
+
+.trades-outcome > label {
+   margin-top: 13px;
+}
+
+.total-funds {
+   text-align:right;
+}
+
+.main-graph img {
+   height: 80px;
+   max-width: 180px;
+}
+
+.rotated-graph img {
+   height: 80px;
+   max-width: 130px;
+}
+
+.funds-section {
+   height: 100%;
+   padding-top: 10px;
+}
+
+.total-funds {
+   margin-bottom: 2px;
+}
+
+@media screen and (max-width:1000px){
+   .rotated-graph {
+      display:none;
+   }
+}
+
+@media screen and (max-width:530px){
+   .main-graph img {
+      display:none;
+   }   
+}
